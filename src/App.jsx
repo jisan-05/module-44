@@ -1,11 +1,16 @@
 import './App.css'
+import Navbar from './components/Navbar/Navbar'
+import PriceOption from './PriceOptions/PriceOptions'
+// import DaisyNav from './components/daisyNav/DaisyNav'
 
 function App() {
 
 
   return (
     <>
-      <p className='text-7xl font-bold'>React App</p>
+      {/* <DaisyNav></DaisyNav> */}
+      <Navbar></Navbar>
+      <PriceOption></PriceOption>
     </>
   )
 }
